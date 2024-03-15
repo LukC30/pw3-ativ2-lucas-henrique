@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.divForm{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100px;
+
+}
+
+.inputs{
+  border-radius: 5px;
+  
+
+
+
 }

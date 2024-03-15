@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  display: flex;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.divForm{
+  height: 60%;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+}
+
+.inputs{
+  border-radius: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+
+
 }
