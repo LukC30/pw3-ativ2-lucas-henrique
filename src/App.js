@@ -88,7 +88,7 @@ function App() {
           maxLength={11}
           required
           value={tel}
-          onChange={(event)=>{replaceNumber(replaceNumber(event.target.value))}}
+          onChange={(event)=>{setTel(replaceNumber(event.target.value))}}
           placeholder='11 99999-9999'
           />
           <input
